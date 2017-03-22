@@ -1,21 +1,63 @@
-Jekyll Themes
-=============
+# nandomoreira.me jekyll theme
 
-A directory of the best-looking themes for Jekyll blogs
+### [Preview](http://nandomoreira.me/nandomoreira-jekyll-theme/)
 
+## Setup
 
-Submitting a Theme
-------------------
+### In the terminal run the commands
 
-Have a theme you want to share?
+```
+$ sudo npm i -g gulp bower browser-sync
+$ sudo gem install bundler
+$ bundle install
+$ npm install
+```
 
-* Fork the site on GitHub
-* Create a new post in the `_posts` directory and fill out the relevant YAML fields
-* Make a 250x200 thumbnail and drop it in the thumbnails directory. List its filename in the post's markdown file.
-* Test it out, then push your changes up and open a pull request.
+## Using Rake tasks
 
+```
+$ rake post title="TITLE OF THE POST"
+$ rake page name="about.md"
+$ rake category title="Programing"
+$ rake tag title="Jekyll"
+```
 
-License
--------
+## Using Jekyll
 
-The contents of this repository are licensed under the [GNU Public License.](http://www.gnu.org/licenses/gpl-3.0.html)
+### Running the server:
+
+```
+$ jekyll server
+```
+
+Access, [localhost:4000](http://localhost:4000/)
+
+## Using Gulp
+
+### Rum gulp
+
+```
+$ gulp
+```
+
+---
+
+## Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+* [Jekyll](http://jekyllrb.com/);
+* [Jekyll Documentation](http://jekyllrb.com/docs/home/);
+* [Como definir URLs curtas no Jekyll](http://nandomoreira.me/urls-curtas-no-jekyll/);
+* [Adicionando Disqus ao seu projeto Jekyll](http://nandomoreira.me/adicionando-disqus-ao-seu-projeto-jekyll/);
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy! :yum:
