@@ -1,14 +1,14 @@
 ---
 title:  "Ehh..."
-subtitle: "The Bigger the better?"
+subtitle: "That Watch?"
 author: "Xiying"
 avatar: "img/authors/xiying.jpg"
 image: "img/c.jpg"
 date:   2017-03-25 18:36:12
 ---
 
-### First, I want to say...
-HMY is elegent, of course, she is my wife~~~ 
+## First, I want to say.
+HMY is elegent, of course, she is my wife~
 
 ### Watch ～～～
 Do you see it? 2333333333～～～  
@@ -24,7 +24,6 @@ The most important part is __THE TIME__
 __NO!  
 It's serious!__  
 The exact time is my love show.
-[image]: img/show.jpg "Love"
 
 ### Waiting for more Explosive News
 Just...   
