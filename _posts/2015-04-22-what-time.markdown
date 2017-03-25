@@ -24,15 +24,12 @@ The most important part is __THE TIME__
 __NO!  
 It's serious!__  
 The exact time is my love show.
-imege: "img/show.jpg"
+image: img/show.jpg "Love"
 
 ### Waiting for more Explosive News
 Just...   
 Waiting  
 __.__  
 __.__    
-__.__    
-__.__    
-__.__    
-__.__
+__.__ 
 ######English is limited 😅😅😅

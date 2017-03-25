@@ -11,7 +11,7 @@ date:   2017-03-25 18:36:12
 HMY is elegent, of course, she is my wife~~~ 
 
 ### The quiet Night～～～
-A Beautiful shot during the night.  
+>A Beautiful shot during the night.  
 The Spring comes.  
 The Leaves fall.  
 The Bench tastes lonely.  
@@ -22,17 +22,8 @@ With him.
 
 ### Waiting for more Explosive News
 Just...   
-W   
-A  
-I  
-T  
-I  
-N  
-G  
+Waiting  
 __.__  
 __.__    
-__.__    
-__.__    
-__.__    
-__.__    
->English is limited😅
+__.__ 
+######English is limited 😅😅😅
