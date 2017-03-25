@@ -1,14 +1,15 @@
-# Jekyll Modern Blog
+## [My Lovely Blog](https://xiying.github.io/)
+
+### About Jekyll Modern Blog
 
 A Simple, Clean and responsive modern blog for jekyll.
 
-## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
 
-## Attributions
+### Attributions
 Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
 Using Sample images from [Fancy Crave](http://fancycrave.com/)
 
-## License
+### License
 
 Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
 
