@@ -1,116 +1,89 @@
 ---
-layout: landing
+layout: compress
 ---
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>There is a beauty</h2>
-								<p>Her name is HMY.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>There is a beauty</h2>
-								<p>Her name is HMY.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>There is a beauty</h2>
-								<p>Her name is HMY.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>There is a beauty</h2>
-								<p>Her name is HMY.</p>
-							</div>
-						</section>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>There is a beauty<br />
-								Her name is HMY</h2>
-								<p>
-									I love the beauty.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>There is a beauty.<br />
-									Her name is HMY.<br \>
-									I love the beauty.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>There is a beauty.<br />
-									Her name is HMY.<br \>
-									I love the beauty.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>There is a beauty.<br />
-									Her name is HMY.<br \>
-									I love the beauty.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>There is a beauty.<br />
-									Her name is HMY.<br \>
-									I love the beauty.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Love</h3>
-									<p>There is a beauty.<br />
-									Her name is HMY.<br \>
-									I love the beauty.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Flag</h3>
-									<p>There is a beauty.<br />
-									Her name is HMY.<br \>
-									I love the beauty.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>I love the beauty.</h2>
-								<p>There is a beauty.<br />
-									Her name is HMY.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}"/>
+    <meta name="keywords" content="{{ site.keywords }}"/>
+    <meta name="author" content="{{ site.author }}"/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="css/modern-blog.css"/>
+    <!--[if IE]>
+    <script type="text/javascript" src="js/vendors/html5.min.js"></script>
+    <![endif]-->
+    <script>
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            var root = document.getElementsByTagName('html')[0];
+            root.setAttribute('class', 'ff');
+        }
+    </script>
+</head>
+<body class="body">
+<div class="container">
+    <header class="header">
+        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
+        <nav class="links">
+            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
+        </nav>
+    </header>
+    <div class="content">
+        <!-- trianglify pattern container -->
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+            {% for post in site.posts %}
+            <div class="card" data-id="{{ post.id }}">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="{{ post.id }}-clip-path">
+                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                               xlink:href="{{ post.image }}"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">{{ post.title }}</h2>
+                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="{{ post.avatar }}"/>
+                                <span class="meta__author">{{ post.author }}</span>
+                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                            </div>
+                            {{ post.content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <!-- /cards -->
+        </div>
+    </div>
+    <!-- /container -->
+</div>
+<!-- JS -->
+<script src="js/vendors/trianglify.min.js"></script>
+<script src="js/vendors/TweenMax.min.js"></script>
+<script src="js/vendors/ScrollToPlugin.min.js"></script>
+<script src="js/vendors/cash.min.js"></script>
+<script src="js/card-modern-blog.js"></script>
+<script src="js/modern-blog.js"></script>
+</body>
+</html>
