@@ -17,7 +17,8 @@ The Leaves fall.
 The Bench tastes lonely.  
 But he never know...  
 I am keeping...  
-With him.
+With him.  
+(Oh! A little weird? 😄😄😄)
 
 ### Waiting for more Explosive News
 Just...   
@@ -25,4 +26,6 @@ Waiting
 __.__  
 __.__    
 __.__  
-######English is limited 😅😅😅
+<br />  
+<br />
+__English is limited 😅😅😅__
