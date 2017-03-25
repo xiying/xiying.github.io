@@ -7,7 +7,8 @@ image: "img/b.jpg"
 date:   2017-03-25 18:36:12
 ---
 
-
+### First, I want to say...
+HMY is elegent, of course, she is my wife~~~ 
 
 ### The quiet Night～～～
 A Beautiful shot during the night.  
@@ -23,5 +24,5 @@ Just...
 Waiting  
 __.__  
 __.__    
-__.__ 
+__.__  
 ######English is limited 😅😅😅
