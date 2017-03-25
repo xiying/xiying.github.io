@@ -11,7 +11,7 @@ date:   2017-03-25 18:36:12
 HMY is elegent, of course, she is my wife~~~ 
 
 ### Watch ～～～
-Do you see it? 2333333333～～～～～～  
+Do you see it? 2333333333～～～  
 If you focus on the watch...  
 I have to say SORRY  
 You... are... wrong...  
@@ -24,7 +24,7 @@ The most important part is __THE TIME__
 __NO!  
 It's serious!__  
 The exact time is my love show.
-image: img/show.jpg "Love"
+[image]: img/show.jpg "Love"
 
 ### Waiting for more Explosive News
 Just...   
