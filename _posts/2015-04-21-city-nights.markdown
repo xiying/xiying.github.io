@@ -8,7 +8,8 @@ date:   2017-03-25 18:36:12
 ---
 
 ## First, I want to say
-HMY is elegent, of course, she is my wife~~~ 
+HMY is elegent.  
+Of course, the beauty will be my wife~~~ 
 
 ### The quiet Night～～～
 A Beautiful shot during the night.  
