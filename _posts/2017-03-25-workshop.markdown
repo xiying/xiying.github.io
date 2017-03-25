@@ -1,6 +1,6 @@
 ---
 title:  "An Intoxicating Light"
-subtitle: "It's always a bit messy"
+subtitle: "It's always cool!"
 author: "Xiying"
 avatar: "img/authors/xiying.jpg"
 image: "img/f.jpg"
